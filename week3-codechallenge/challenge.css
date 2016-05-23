@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.planet {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    -webkit-animation-name: mymove;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-duration:10s;
+}
+
+@-webkit-keyframes mymove {
+from { -webkit-transform:rotate(0deg) }
+to { -webkit-transform:rotate(360deg) }
+}
+
+.moon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(153, 153, 153);
+}

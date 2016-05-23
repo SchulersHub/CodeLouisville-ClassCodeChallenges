@@ -1,6 +1,5 @@
 var array = [ 1,2,3,4,5];
 var sum = 0
-var message = '';
 
 
 array.splice(2,0,6)
@@ -11,4 +10,4 @@ for( var i = 0; i < array.length; i++){
 
 
 
-$("h2 span").text("$6,500");
+$("div h2 span").text("$6,500");
